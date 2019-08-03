@@ -4,25 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <style>
-        body{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-
-        input{
-            margin: 5px;
-        }
-
-        button{
-            margin: 5px;
-            background-color: grey;
-            padding: 5px 60px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
@@ -34,7 +16,7 @@
 
    <script>
        function success() {
-	 if(document.getElementById("form").value==="") { 
+	 if(document.getElementById("form && form1").value==="") { 
             document.getElementById('btn').disabled = true; 
         } else { 
             document.getElementById('btn').disabled = false;

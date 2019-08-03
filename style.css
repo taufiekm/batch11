@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+input{
+    margin: 5px;
+}
+
+button{
+    margin: 5px;
+    background-color: grey;
+    padding: 5px 60px;
+    border: none;
+    
+}
