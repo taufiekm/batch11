@@ -8,7 +8,9 @@
     <title>Document</title>
 </head>
 <body>
-   <h4>LOG IN HERE</h4>
+
+
+   <h2>LOG IN HERE</h2>
    <input type="text" placeholder="email" onkeyup="success()" id="form">
    <input type="password" placeholder="password" onkeyup="success()" id="form1">
    <button onclick="myFunction()" type="submit" id="btn" disabled>LOG IN</button>   
@@ -16,13 +18,17 @@
 
    <script>
        function success() {
-	 if(document.getElementById("form && form1").value==="") { 
+	    if(document.getElementById("form1").value==="") { 
             document.getElementById('btn').disabled = true; 
-        } else { 
+            } else { 
             document.getElementById('btn').disabled = false;
+            }
         }
-    }
-   
+
+        function myFunction() {
+            alert ("welcome");
+        }
+    
    </script>
 </body>
 </html>
